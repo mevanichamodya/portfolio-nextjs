@@ -24,8 +24,8 @@ module.exports = {
         xl: "1280px",
       },
       colors: {
-        bodyColor: "#0A192F",
-        textGreen: "#64ffda",
+        bodyColor: "#15003B",
+        textGreen: "#00FFFF",
         textLight: "#ccd6f6",
         textDark: "#8892b0",
         hoverColor: "rgba(100,255,218,0.1)",
