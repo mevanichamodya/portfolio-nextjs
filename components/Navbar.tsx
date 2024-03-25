@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialYoutube } from "react-icons/sl";
 import {
   SlSocialLinkedin,
   SlSocialFacebook,
@@ -180,7 +179,7 @@ const Navbar = () => {
                       About
                     </motion.li>
                   </Link>
-                  <Link
+                  {/* <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#experience"
                     onClick={handleScroll}
@@ -193,7 +192,7 @@ const Navbar = () => {
                       <span className="text-textGreen">02.</span>
                       Experience
                     </motion.li>
-                  </Link>
+                  </Link> */}
                   <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#project"

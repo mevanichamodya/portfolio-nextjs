@@ -13,13 +13,15 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Mevani Chamodya and I enjoy creating things that
-            live on the internet. My interest in web development and mobile app development started back in
-            2023 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            Hi there, I'm Mevani Chamodya Jayasinghe, <span className="text-textGreen">
+            currently pursuing my BSc (Hons) in IT at the University of Jayewardanepura.
+            </span> With a keen interest in mobile and web development, I'm dedicated to crafting intuitive digital solutions. <span className="text-textGreen">
+            Passionate about UI/UX design,
+            </span> I enjoy exploring the creative aspects of user interface development. 
+            Alongside my tech pursuits, I find joy in traveling through natural environments, immersing myself in the serenity of nature. 
+            and also I like exploring inspiration in the realm of bio science and geogrphical things love delving into its intricacies.!
           </p>
-          <p>
+          {/* <p>
             Fast-forward to today, and I had the privilege of working at an
             advertising agency, a start-up,{" "}
             <span className="text-textGreen">
@@ -30,12 +32,12 @@ const About = () => {
             <span className="text-textGreen">
               ab natus possimus? Sint, accusamus!
             </span>
-          </p>
-          <p>
+  </p> */}
+          {/* <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
             ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
             recusandae.
-          </p>
+          </p> */}
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
@@ -84,7 +86,19 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwindcss
+              CSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+             HTML
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+             React-Native
             </li>
           </ul>
         </div>

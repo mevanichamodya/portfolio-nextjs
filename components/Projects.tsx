@@ -8,7 +8,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="Some Things I have Built" titleNo="03" />
+      <SectionTitle title="Some Things I have Built" titleNo="02" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
@@ -31,43 +31,28 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Plant Guide Mobile App</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+            The Plant Guide App, a group project, simplifies plant exploration with its user-friendly login/signup, backed by  <span className="text-textGreen">Google authentication and Firebase integration for security. </span>
+            With concise plant descriptions, it enhances user engagement, making plant discovery effortless for all group members.{" "}
+              
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
+              <li>React-Native</li>
               <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>Firebase</li>
+              
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/FHSS-USJ/final-assessment-group-03.git"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://youtu.be/WzMtRfzkP-Q"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://nextamazon.reactbd.com/"
-                target="_blank"
-              >
-                <RxOpenInNewWindow />
-              </a>
+             
             </div>
           </div>
         </div>

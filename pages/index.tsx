@@ -1,7 +1,7 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
+// import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
@@ -35,7 +35,7 @@ export default function Home() {
           <div className="h-[88vh] mx-auto p-4">
             <Banner />
             <About />
-            <Experience />
+            {/* <Experience /> */}
             <Projects />
             <Archive />
             <Contact />
