@@ -8,7 +8,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="Some Things I have Built" titleNo="02" />
+      <SectionTitle title="Some Things I have Built" titleNo="03" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
@@ -34,15 +34,15 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Plant Guide Mobile App</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-            The Plant Guide App, a group project, simplifies plant exploration with its user-friendly login/signup, backed by  <span className="text-textGreen">Google authentication and Firebase integration for security. </span>
-            With concise plant descriptions, it enhances user engagement, making plant discovery effortless for all group members.{" "}
-              
+              The Plant Guide App, a group project, simplifies plant exploration with its user-friendly login/signup, backed by  <span className="text-textGreen">Google authentication and Firebase integration for security. </span>
+              With concise plant descriptions, it enhances user engagement, making plant discovery effortless for all group members.{" "}
+
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>React-Native</li>
               <li>Typescript</li>
               <li>Firebase</li>
-              
+
             </ul>
             <div className="text-2xl flex gap-4">
               <a
@@ -52,7 +52,7 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-             
+
             </div>
           </div>
         </div>
@@ -78,45 +78,26 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">Secure lock screen UI</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
-              the portal.
+              A sleek lock screen UI with a three-attempt password system. After three failed attempts, <span className="text-textGreen"> users wait 60 seconds before retrying. </span>
+              Seamlessly transitions to the  <span className="text-textGreen"> home screen upon successful authentication, </span>balancing security with user experience.{" "}
+
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
+              <li>React-Native</li>
               <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
-              <li>React Hook Form</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/FHSS-USJ/assignment-02-mevanichamodya.git"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://youtu.be/49Fx963su1I"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://www.noormohmmad.com/"
-                target="_blank"
-              >
-                <RxOpenInNewWindow />
-              </a>
+              
             </div>
           </div>
         </div>
@@ -160,7 +141,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/mevanichamodya"
                 target="_blank"
               >
                 <TbBrandGithub />
